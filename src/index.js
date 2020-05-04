@@ -26,6 +26,12 @@ console.log(heading, '<- barbara')
 const navChildren = document.body.firstElementChild.firstElementChild.nextElementSibling.children
 console.log(navChildren, '<- gabri')
 
+const navChildrenArr = Array.from(navChildren)
+
+navChildrenArr.forEach(link => {
+  console.log(link.href)
+})
+
 // STEP 6- NO CSS SELECTOR - find the following elements or groups of elements:
 //  - all the divs in the page
 //  - all elements with a className of 'card'
