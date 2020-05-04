@@ -63,6 +63,8 @@ const nav = document.querySelector('nav') // [SINGLE ELEMENT]
 const linksfromNav = nav.querySelectorAll('a') // [COLLECTION]
 
 // STEP 8- use setAttribute to change an attribute of an element
+// elem.getAttribute('href')
+// elem.setAttribute('id', 'newId')
 
 // STEP 9- use style to change inline styles of an element
 //  - make the first h3 subheading be a different color
