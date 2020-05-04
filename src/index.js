@@ -46,7 +46,6 @@ const allLinks = document.getElementsByTagName('a') // [COLLECTION]
 const allCards = document.getElementsByClassName('card') // [COLLECTION]
 const logoTitleOld = document.getElementById('logo-title') // [SINGLE ELEMENT]
 
-
 // STEP 7- do the same, but using CSS selectors
 const logoTitle = document.querySelector('#logo-title') // [SINGLE ELEMENT]
 const anchorTagsNav = document.querySelectorAll('nav a') // [COLLECTION]
