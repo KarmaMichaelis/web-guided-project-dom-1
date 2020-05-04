@@ -23,6 +23,8 @@ const heading = document.body.firstElementChild.firstElementChild.firstElementCh
 console.log(heading, '<- barbara')
 
 // STEP 5- find the children of the nav, convert it into a real array
+const navChildren = document.body.firstElementChild.firstElementChild.nextElementSibling.children
+console.log(navChildren, '<- gabri')
 
 // STEP 6- NO CSS SELECTOR - find the following elements or groups of elements:
 //  - all the divs in the page
