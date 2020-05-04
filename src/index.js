@@ -82,6 +82,11 @@ const theH3s = document.querySelectorAll('h3')
 theH3s.forEach(link => link.style.color = 'orange')
 
 // STEP 10- use classList to add, remove and toggle a class name
+// elem.classList // the list of classNames
+// elem.classList.add('foo') // this adds a className of 'foo' to elem
+// elem.classList.remove('foo') // this removes the className of 'foo' from elem
+// elem.classList.toggle('foo') // this toggles the className on the element
+
 //  - remove the 'extra-stuff' class name from the last paragraph
 //  - add it to the first paragraph
 //  - toggle it in the second paragraph
