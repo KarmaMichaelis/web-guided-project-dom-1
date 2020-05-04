@@ -75,7 +75,11 @@ nav.firstElementChild.setAttribute('href', 'https://google.com')
 
 // STEP 9- use style to change inline styles of an element
 //  - make the first h3 subheading be a different color
+const theH3 = document.querySelector('h3')
+theH3.style.color = 'green'
 //  - make all the h3 subheadings be a different color using a loop
+const theH3s = document.querySelectorAll('h3')
+theH3s.forEach(link => link.style.color = 'orange')
 
 // STEP 10- use classList to add, remove and toggle a class name
 //  - remove the 'extra-stuff' class name from the last paragraph
