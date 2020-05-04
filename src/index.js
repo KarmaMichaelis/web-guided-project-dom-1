@@ -50,6 +50,12 @@ const logoTitleOld = document.getElementById('logo-title') // [SINGLE ELEMENT]
 //  - all the divs in the page
 //  - all elements with a className of 'card'
 //  - the element with an id of 'mainNav'
+
+document.querySelectorAll('div')
+document.querySelectorAll('.card')
+document.querySelector('#mainNav')
+
+// examples
 const logoTitle = document.querySelector('#logo-title') // [SINGLE ELEMENT]
 const anchorTagsNav = document.querySelectorAll('nav a') // [COLLECTION]
 
