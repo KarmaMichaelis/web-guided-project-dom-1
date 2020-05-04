@@ -90,6 +90,7 @@ theH3s.forEach(link => link.style.color = 'orange')
 //  - remove the 'extra-stuff' class name from the last paragraph
 //  - add it to the first paragraph
 //  - toggle it in the second paragraph
+document.querySelectorAll('.extra-stuff').forEach(elem => elem.classList.toggle('extra-stuff'))
 
 // STEP 11- get a collection of h2s and loop over them setting text content from cardTitles
 const cardTitles = {
@@ -98,6 +99,11 @@ const cardTitles = {
   cardTitle3: 'Give Me All the Belly Rubs',
   cardTitle4: 'I Haz CheeseBurger',
 }
+const keys = Object.keys(cardTitles)
+
+document.querySelectorAll('h2').forEach((h2, idx) => {
+  h2.textContent = cardTitles[keys[idx]]
+})
 
 // STEP 12- create a new link and append it to the main nav
 const newLinkProps = {
