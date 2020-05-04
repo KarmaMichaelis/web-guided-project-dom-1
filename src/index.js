@@ -66,6 +66,12 @@ const linksfromNav = nav.querySelectorAll('a') // [COLLECTION]
 // elem.getAttribute('href')
 // elem.setAttribute('id', 'newId')
 
+// (change the href of the first link inside the nav
+// so it takes to google.com)
+
+// 1- capture the element
+// 2- set the attribute
+
 // STEP 9- use style to change inline styles of an element
 //  - make the first h3 subheading be a different color
 //  - make all the h3 subheadings be a different color using a loop
