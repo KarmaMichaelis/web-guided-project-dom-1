@@ -111,3 +111,14 @@ const newLinkProps = {
   textContent: 'Site Map',
   className: 'menu-item',
 }
+
+// create link out of thin air, put it in a variable
+const newLink = document.createElement('a')
+
+// add all the attrs and content it needs
+newLink.href = newLinkProps.href
+newLink.textContent = newLinkProps.textContent
+newLink.classList.add(newLinkProps.className)
+
+// append it to the nav
+nav.appendChild(newLink)
