@@ -12,10 +12,15 @@ console.log('The project is UP')
 
 // STEP 3- find the body of the document in the DOM and find:
 //  - Its parentElement
+const parentOfBody = document.body.parentElement
 //  - Its firstElementChild
+const header = document.body.firstElementChild
 //  - Its firstElementChild's nextSibling element
+const cardContainer = document.body.firstElementChild.nextElementSibling
 
 // STEP 4- find the Lambda Cat heading with firstElementChild and nextSibling
+const heading = document.body.firstElementChild.firstElementChild.firstElementChild.nextElementSibling
+console.log(heading, '<- barbara')
 
 // STEP 5- find the children of the nav, convert it into a real array
 
