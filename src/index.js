@@ -27,9 +27,10 @@ const navChildren = document.body.firstElementChild.firstElementChild.nextElemen
 console.log(navChildren, '<- gabri')
 
 const navChildrenArr = Array.from(navChildren)
+console.log(navChildrenArr, '<- the REAL array')
 
 navChildrenArr.forEach(link => {
-  console.log(link.href)
+  console.log(link.textContent)
 })
 
 // STEP 6- NO CSS SELECTOR - find the following elements or groups of elements:
