@@ -47,6 +47,9 @@ const allCards = document.getElementsByClassName('card') // [COLLECTION]
 const logoTitleOld = document.getElementById('logo-title') // [SINGLE ELEMENT]
 
 // STEP 7- do the same, but using CSS selectors
+//  - all the divs in the page
+//  - all elements with a className of 'card'
+//  - the element with an id of 'mainNav'
 const logoTitle = document.querySelector('#logo-title') // [SINGLE ELEMENT]
 const anchorTagsNav = document.querySelectorAll('nav a') // [COLLECTION]
 
